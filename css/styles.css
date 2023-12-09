@@ -23,6 +23,12 @@ address {
 ul {
     list-style-type: none;
     padding-left: 0px;
+    /* added */
+    margin: 0;
+}
+
+h1, h2, h3, p {
+    margin: 0;
 }
 
 
@@ -84,7 +90,6 @@ address > a:focus {
 .header .container {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
 }
 
 .header-list {
@@ -101,6 +106,7 @@ address > a:focus {
 
 .nav-item {
     padding: 24px 0;
+    display: block;
 }
 
 .address-link {
@@ -125,12 +131,7 @@ address > a:focus {
     line-height: 1.2;
     letter-spacing: .02em;
     color: #2E2F42;
-    margin-top: 0px;
     margin-bottom: 8px;
-}
-
-.card-text {
-    margin: 0px auto;
 }
 
 .card-content {
